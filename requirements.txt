@@ -1,0 +1,9 @@
+# Para quien no use conda. Python 3.10 o superior.
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+joblib>=1.3          # trabajo en paralelo (viene con scikit-learn)
+matplotlib>=3.7
+networkx>=3.0        # grafo de Markov (src/grafos.py)
+ipykernel            # para correr el notebook en VS Code

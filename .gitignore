@@ -1,0 +1,18 @@
+# Python y Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Datos generados al correr el notebook (no se versionan por tamaño)
+data/*
+!data/.gitkeep
+
+# Archivo viejo de una corrida anterior (reemplazado por results/extension_tamano.csv)
+results/cv_extension_75k.csv
+
+# Sistema operativo y OneDrive
+.DS_Store
+Thumbs.db
+desktop.ini
